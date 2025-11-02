@@ -1,90 +1,137 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Lio Hairstyle - Barber Shop em Praia Grande, Salvador. Agende seu corte com os melhores barbeiros da região."/>
-  <title>Lio Hairstyle - Barber Shop</title>
-  <link rel="icon" href="img/logo.png" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Lio Hairstyle - Barber Shop em Praia Grande, Salvador. Cortes, barba e estilo com tradição. Agende pelo WhatsApp: (71) 98888-8888"
+    />
+    <title>Lio Hairstyle - Barber Shop</title>
+    <link rel="icon" href="data:," />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Montserrat:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- MENU INFERIOR -->
+    <nav class="mobile-nav">
+      <a href="#hero" class="nav-item active">Início</a>
+      <a href="#servicos" class="nav-item">Serviços</a>
+      <a href="#galeria" class="nav-item">Galeria</a>
+      <a
+        href="https://wa.me/5571988888888?text=Ol%C3%A1!%20Quero%20agendar%20um%20corte."
+        class="nav-item cta"
+        >Agendar</a
+      >
+    </nav>
 
-  <!-- HEADER -->
-  <header class="header">
-    <div class="logo">Lio Hairstyle</div>
-    <div class="menu-toggle">☰</div>
-  </header>
-
-  <!-- HERO -->
-  <section class="hero">
-    <img src="img/hero.jpg" alt="Lio Hairstyle" class="hero-bg">
-    <div class="hero-content">
-      <h1>DEIXE RELUZIR A SUA MELHOR VERSÃO COM A GENTE</h1>
-      <a href="https://wa.me/55719879860035" class="btn">Fale Conosco</a>
-    </div>
-  </section>
-
-  <!-- SERVIÇOS -->
-  <section class="section">
-    <h2>CORTES</h2>
-    <div class="price-list">
-      <div class="price-item"><span>Americano</span><strong>R$ 20</strong></div>
-      <div class="price-item"><span>VO</span><strong>R$ 25</strong></div>
-      <div class="price-item"><span>Platinado</span><strong>R$ 60</strong></div>
-      <div class="price-item"><span>Disfarçado</span><strong>R$ 20</strong></div>
-      <div class="price-item"><span>Mullet</span><strong>R$ 25</strong></div>
-      <div class="price-item"><span>Jaca</span><strong>R$ 22</strong></div>
-    </div>
-    <a href="#mapa" class="btn secondary">ver loja</a>
-  </section>
-
-  <!-- EXPERIÊNCIA -->
-  <section class="section experience">
-    <h2>TUDO PARA UMA MELHOR EXPERIÊNCIA</h2>
-    <div class="cards">
-      <div class="card">
-        <div class="icon">🎮</div>
-        <h3>LAZER E DIVERSÃO</h3>
-        <p>Diversos jogos e músicas para aproveitar a espera</p>
+    <!-- HERO -->
+    <section id="hero" class="section snap">
+      <img
+        src="img/hero.jpg"
+        alt="Lio Hairstyle"
+        class="hero-bg"
+        loading="lazy"
+      />
+      <div class="hero-content">
+        <img src="img/logo.png" alt="Lio Hairstyle Logo" class="logo" />
+        <h1>Estilo & Tradição</h1>
+        <p>Cortes impecáveis com atendimento premium</p>
+        <a
+          class="cta-mobile"
+          href="https://wa.me/5571988888888?text=Ol%C3%A1!%20Quero%20agendar."
+          >Agendar Agora</a
+        >
       </div>
-      <div class="card">
-        <div class="icon">🏠</div>
-        <h3>MUITO MAIS CONFORTO</h3>
-        <p>Ambiente agradável, climatizado e decorado</p>
-      </div>
-      <div class="card">
-        <div class="icon">☕</div>
-        <h3>REFRESQUE-SE</h3>
-        <p>Água, café e chá à vontade</p>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- HORÁRIOS -->
-  <section class="section schedule">
-    <h2>HORÁRIOS DISPONÍVEIS</h2>
-    <h3>Esta semana</h3>
-    <div class="calendar">
-      <div class="day"><strong>Terça</strong><div class="slots"><span>08:00</span><span class="closed">FECHADO</span><span class="closed">FECHADO</span></div></div>
-      <div class="day"><strong>Quarta</strong><div class="slots"><span>11:00</span><span>12:00</span><span>13:00</span></div></div>
-      <div class="day"><strong>Quinta</strong><div class="slots"><span>14:00</span><span>15:00</span><span>16:00</span></div></div>
-      <div class="day"><strong>Sexta</strong><div class="slots"><span>17:00</span><span>18:00</span><span>19:00</span></div></div>
-      <div class="day"><strong>Sábado</strong><div class="slots"><span>08:00</span><span>09:00</span><span>10:00</span></div></div>
-      <div class="day"><strong>Domingo</strong><div class="slots"><span>08:00</span><span>09:00</span><span>10:00</span></div></div>
-    </div>
-  </section>
+    <!-- SERVIÇOS -->
+    <section id="servicos" class="section snap">
+      <div class="container">
+        <h2>Nossos Serviços</h2>
+        <div class="services-mobile">
+          <div class="service-card">
+            <span class="icon">Corte</span>
+            <strong>R$ 27</strong>
+          </div>
+          <div class="service-card">
+            <span class="icon">Cabelo + Sobrancelha</span>
+            <strong>R$ 30</strong>
+          </div>
+          <div class="service-card">
+            <span class="icon">Barba</span>
+            <strong>R$ 10</strong>
+          </div>
+          <div class="service-card">
+            <span class="icon">Combo Premium</span>
+            <strong>R$ 35</strong>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <!-- MAPA -->
-  <section id="mapa" class="section map">
-    <h2>PRAIA GRANDE</h2>
-    <p>Av. Afrânio Peixoto, 8673 — Praia Grande, Salvador — BA 40720-690</p>
-    <a href="https://maps.app.goo.gl/..." class="btn link">Ver no mapa</a>
-    <div class="contact">
-      <p><strong>(71) 98798-6035</strong></p>
-      <a href="https://wa.me/5571987986035" class="btn">Entre em contato</a>
-    </div>
-    <div class="hours">
-      <p><strong>ABERTO DE TERÇA A DOMINGO</strong></p>
-      <p>Terça a sexta: 08:00 – 19
+    <!-- GALERIA -->
+    <section id="galeria" class="section snap">
+      <div class="container">
+        <h2>Galeria de Cortes</h2>
+        <div class="gallery-mobile">
+          <a href="img/1.jpg" data-fancybox="galeria"
+            ><img src="img/1.jpg" loading="lazy"
+          /></a>
+          <a href="img/2.jpg" data-fancybox="galeria"
+            ><img src="img/2.jpg" loading="lazy"
+          /></a>
+          <a href="img/3.jpg" data-fancybox="galeria"
+            ><img src="img/3.jpg" loading="lazy"
+          /></a>
+          <a href="img/4.jpg" data-fancybox="galeria"
+            ><img src="img/4.jpg" loading="lazy"
+          /></a>
+          <a href="img/5.jpg" data-fancybox="galeria"
+            ><img src="img/5.jpg" loading="lazy"
+          /></a>
+          <a href="img/6.jpg" data-fancybox="galeria"
+            ><img src="img/6.jpg" loading="lazy"
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCALIZAÇÃO -->
+    <section id="mapa" class="section snap">
+      <div class="container">
+        <h2>Venha nos visitar</h2>
+        <p>Rua Pedro Lopes, 56 - Praia Grande, Salvador/BA</p>
+        <div class="map-mobile">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.123!2d-38.456789!3d-12.987654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU5JzE1LjIiUyAzOMKwMjcnMjMuOCJX!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+            loading="lazy"
+          ></iframe>
+        </div>
+        <a
+          class="cta-full"
+          href="https://wa.me/5571988888888?text=Quero%20ir%20at%C3%A9%20a%C3%AD!"
+          >Como Chegar</a
+        >
+      </div>
+    </section>
+
+    <!-- CTA FLUTUANTE -->
+    <a
+      class="cta-float"
+      href="https://wa.me/5571988888888?text=Ol%C3%A1!%20Quero%20agendar%20um%20corte."
+    >
+      <span>Agendar</span>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox.umd.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
